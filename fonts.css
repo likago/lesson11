@@ -1,0 +1,12 @@
+@font-face {
+    font-family: open;
+    src: url(./fonts/OpenSans_Condensed-Regular.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: avenir;
+    src: url(./fonts/AvenirNextLTPro-Regular.otf);
+}

@@ -1,0 +1,140 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    max-height: 705px;
+    margin: auto;
+}
+
+.form-div {
+    border: 2px solid  #003D61;
+    border-radius: 10px;
+    max-width: 581px;
+}
+ .logo {
+    display: grid;
+    justify-content: center;
+}
+.form-box {
+   text-align: center;
+} 
+label {
+    color: #003D61;
+    font-family: open;
+    font-size: 20px;
+}
+input {
+    border-top: none;
+    border-right: none;
+    border-color: #003D61;
+    margin-top: 25px;
+    width: 350px;
+    height: 40px;
+    vertical-align:auto;
+    font-family: open;
+    font-size: 12px;
+}
+
+#click {
+    margin-top: 35px;
+}
+
+#click input {
+    width: 20px;
+    height: 20px;
+}
+#click label {
+    font-family: Inter;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+}
+
+.login {
+    margin: auto;
+    max-width: 250px;
+    margin-top: 55px; 
+    text-align: center;
+} 
+.login-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-text p {
+    font-family: inter;
+    font-size: 16px;
+    color: #003D61;
+}
+a  {
+    text-decoration: none;
+    color: #ED2980;
+}
+.button-info {
+    display: none;
+}
+.button-info p button {
+    display: none;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+svg {
+    width: 48.99px;
+    height: 48.99px;
+}
+
+@media (max-width: 800px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+    .form-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    label {
+        display: none;
+    }
+    input {
+        border-left: none;
+        border-color: #4F4F4F4D;
+        font-family: avenir;
+    }
+    .user {
+        display: none;
+    }
+    #click {
+        display: none;
+    }
+    .login p {
+        display: none;
+    }
+    .button-info {
+        display: block;
+    }
+    .button-info button {
+        font-family: avenir;
+        font-size: 16px;
+        display: block;
+        width: 500px;
+        background-color: #0006b1;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .button-info p {
+        font-family: avenir;
+        font-size: 14px;
+        display: block;
+        width: 150px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    a {
+        display: none;
+    }
+}
